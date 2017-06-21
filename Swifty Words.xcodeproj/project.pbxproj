@@ -12,6 +12,8 @@
 		541CFFC41EF7660F00BAC929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541CFFC21EF7660F00BAC929 /* Main.storyboard */; };
 		541CFFC61EF7660F00BAC929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541CFFC51EF7660F00BAC929 /* Assets.xcassets */; };
 		541CFFC91EF7660F00BAC929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541CFFC71EF7660F00BAC929 /* LaunchScreen.storyboard */; };
+		54C928D61EFA20D8000D9C4C /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54C928D31EFA1FC7000D9C4C /* level1.txt */; };
+		54C928D71EFA20D8000D9C4C /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54C928D41EFA1FC7000D9C4C /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		541CFFC51EF7660F00BAC929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		541CFFC81EF7660F00BAC929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		541CFFCA1EF7660F00BAC929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C928D31EFA1FC7000D9C4C /* level1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		54C928D41EFA1FC7000D9C4C /* level2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		541CFFBD1EF7660F00BAC929 /* Swifty Words */ = {
 			isa = PBXGroup;
 			children = (
+				54C928D51EFA1FCC000D9C4C /* Levels */,
 				541CFFBE1EF7660F00BAC929 /* AppDelegate.swift */,
 				541CFFC01EF7660F00BAC929 /* ViewController.swift */,
 				541CFFC21EF7660F00BAC929 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				541CFFCA1EF7660F00BAC929 /* Info.plist */,
 			);
 			path = "Swifty Words";
+			sourceTree = "<group>";
+		};
+		54C928D51EFA1FCC000D9C4C /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				54C928D31EFA1FC7000D9C4C /* level1.txt */,
+				54C928D41EFA1FC7000D9C4C /* level2.txt */,
+			);
+			path = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C928D71EFA20D8000D9C4C /* level2.txt in Resources */,
 				541CFFC91EF7660F00BAC929 /* LaunchScreen.storyboard in Resources */,
+				54C928D61EFA20D8000D9C4C /* level1.txt in Resources */,
 				541CFFC61EF7660F00BAC929 /* Assets.xcassets in Resources */,
 				541CFFC41EF7660F00BAC929 /* Main.storyboard in Resources */,
 			);
