@@ -31,7 +31,13 @@ class ViewController: UIViewController {
     var solutions = [String]()
     
     // store's player's score
-    var score = 0
+    var score: Int = 0 {
+        // update our scoreLabel when score is updated
+        didSet {
+            scoreLabel.text = "Score: \(score)"
+        }
+    }
+    
     // store's current level
     var level = 1
     
